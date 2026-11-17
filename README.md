@@ -4,7 +4,7 @@ This assignment demonstrates how to use python error handling (try and except) t
 
 #function explanation
 
-Safe_divide: This function divides one number by another. if the second number is zero, it catches the ZeroDivisiovError and return "cannot divide by zero"
+Safe_divide: This function divides one number by another. if the second number is zero, it catches the ZeroDivisionError and return "cannot divide by zero"
 Safe_number: This function convert text into a whole number using int().If the texts contain invalid characters, such as "abc", it catches the ValueError and returns " Not a number"
 Safe_get: This function searches for a specific key in a dictionary and return its value. If the key does not exist, it catches the keyError and returns "field not found"
 
